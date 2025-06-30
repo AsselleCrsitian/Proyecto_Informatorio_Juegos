@@ -184,7 +184,7 @@ class App:
             pista.pack(pady=5)
 
         def mostrar_imagen_animal(nombre_animal):
-            ruta = f'Imagenes/{nombre_animal}.png'
+            ruta = f'proyecto_informatorio/Imagenes/{nombre_animal}.png'
             if os.path.exists(ruta):
                 img = Image.open(ruta)
                 img = img.resize((100, 100), Image.LANCZOS)
